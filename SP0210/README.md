@@ -110,7 +110,6 @@ Date: 8/8/2021
    Lesson 1 Completed...
  Date: 9/8/2021
  <br/>
- <br/>
 Date: 9/8/21
 <br/>
   Satwik:
