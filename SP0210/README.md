@@ -128,6 +128,13 @@ Date: 9/8/21
   Lesson 1 completed.
   <br/>
  faced a little problem with data frames.
+<br/>
+Date: 9/8/21
+<br/>
+  Suhani Maheshwari :
+    Lesson 1 Completed... 
+    <br/>
+    Blockers : None
 
 
 ## Resources
