@@ -117,7 +117,8 @@ Date: 9/8/21
 Date: 9/8/21
 <br/>
   Rajat Jain :
-    Lesson 1 Completed...   
+    Lesson 1 Completed... 
+<br/>
 ## Resources
 
 ## Roadmap
