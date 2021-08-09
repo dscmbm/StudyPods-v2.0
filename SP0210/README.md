@@ -103,7 +103,12 @@ Date:
 ```
 
 ### Logs
+...
+Date: 8/8/2021
 
+ Harshit:
+   Lesson 1 Completed...
+...
 ## Resources
 
 ## Roadmap
