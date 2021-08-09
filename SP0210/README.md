@@ -110,10 +110,7 @@ Date: 8/8/2021
    Lesson 1 Completed...
  Date: 9/8/2021
  <br/>
- Harshita Sharma:
-  Lesson 1 completed.
- faced a little problem with data frames.
-<br/>
+ <br/>
 Date: 9/8/21
 <br/>
   Satwik:
@@ -124,6 +121,12 @@ Date: 9/8/21
   Rajat Jain :
     Lesson 1 Completed... 
 <br/>
+ Harshita Sharma:
+  Lesson 1 completed.
+  <br/>
+ faced a little problem with data frames.
+
+
 ## Resources
 
 ## Roadmap
