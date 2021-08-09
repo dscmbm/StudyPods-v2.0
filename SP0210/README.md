@@ -114,6 +114,10 @@ Date: 9/8/21
   Satwik:
     Lesson 1 Completed...
 
+... Date: 09/08/2021
+
+Rajat Jain : Lesson 1 Completed... ...
+
 ## Resources
 
 ## Roadmap
