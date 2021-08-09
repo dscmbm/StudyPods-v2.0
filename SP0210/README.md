@@ -109,6 +109,11 @@ Date: 8/8/2021
  Harshit:
    Lesson 1 Completed...
 ...
+Date: 9/8/21
+  
+  Satwik:
+    Lesson 1 Completed...
+
 ## Resources
 
 ## Roadmap
