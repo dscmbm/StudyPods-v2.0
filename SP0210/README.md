@@ -114,11 +114,15 @@ Date: 9/8/21
 <br/>
   Satwik:
     Lesson 1 Completed...
+    <br/>
+    Blockers : None
 <br/>
 Date: 9/8/21
 <br/>
   Rajat Jain :
     Lesson 1 Completed... 
+    <br/>
+    Blockers : None
 <br/>
  Harshita Sharma:
   Lesson 1 completed.
