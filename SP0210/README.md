@@ -104,6 +104,10 @@ Date:
 
 ### Logs
 
+... Date: 09/08/2021
+
+Rajat Jain : Lesson 1 Completed... ...
+
 ## Resources
 
 ## Roadmap
