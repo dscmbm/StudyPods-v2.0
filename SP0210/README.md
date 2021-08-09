@@ -103,12 +103,17 @@ Date:
 ```
 
 ### Logs
-...
+<br/>
 Date: 8/8/2021
-
+<br/>
  Harshit:
    Lesson 1 Completed...
-...
+<br/>
+Date: 9/8/21
+<br/>
+  Satwik:
+    Lesson 1 Completed...
+
 ## Resources
 
 ## Roadmap
