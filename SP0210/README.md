@@ -108,6 +108,11 @@ Date: 8/8/2021
 <br/>
  Harshit:
    Lesson 1 Completed...
+ Date: 9/8/2021
+ <br/>
+ Harshita Sharma:
+  Lesson 1 completed.
+ faced a little problem with data frames.
 <br/>
 Date: 9/8/21
 <br/>
