@@ -56,7 +56,7 @@ Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning am
 
 ## SP02__
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0210 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
@@ -102,40 +102,61 @@ Date:
     Blockers/Challenegs you have faced:
 ```
 
-### Logs
-<br/>
-Date: 8/8/2021
-<br/>
- Harshit:
-   Lesson 1 Completed...
- Date: 9/8/2021
- <br/>
-Date: 9/8/21
-<br/>
-  Satwik:
-    Lesson 1 Completed...
-    <br/>
-    Blockers : None
-<br/>
-Date: 9/8/21
-<br/>
-  Rajat Jain :
-    Lesson 1 Completed... 
-    <br/>
-    Blockers : None
-<br/>
- Harshita Sharma:
-  Lesson 1 completed.
-  <br/>
- faced a little problem with data frames.
-<br/>
-Date: 9/8/21
-<br/>
-  Suhani Maheshwari :
-    Lesson 1 Completed... 
-    <br/>
-    Blockers : None
-
+<hr/>
+<h2>Logs<h2/>
+<table border="5">
+        <thead>
+            <tr>
+                <th width="350">S.No</th>
+                <th width="350">Date</th>
+                <th width="350">Member's Name</th>
+                <th width="350">Task</th>
+                <th width="350">Difficulty/Blockers</th>
+                <th width="350">Solution</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>8/8/2021</td>
+                <td>Harshit</td>
+                <td>Lesson 1 Completed...</td>
+                <td>NO</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>9/8/2021</td>
+                <td>Satwik</td>
+                <td>Lesson 1 Completed...</td>
+                <td>NO</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>9/8/2021</td>
+                <td>Rajat</td>
+                <td>Lesson 1 Completed...</td>
+                <td>NO</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>9/8/2021</td>
+                <td>Harshita Sharma</td>
+                <td>Lesson 1 Completed.</td>
+                <td>faced a little problem with data frames.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>9/8/2021</td>
+                <td>Suhani Maheshwari</td>
+                <td>Lesson 1 Completed...</td>
+                <td>NO</td>
+                <td></td>
+              </tr>
+            </tbody>
+        </table>
 
 ## Resources
 
