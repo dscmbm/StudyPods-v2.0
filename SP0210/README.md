@@ -54,7 +54,7 @@ This is the folder for team SP0210 participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0210
 
 SP0210 is an amazing team built by the efforts of its team members and the support of its mentors
 
@@ -70,44 +70,14 @@ Person5
 
 Mentor1
 
-## Daily Logs
+<hr/>
 
+## Daily Logs
 Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
 
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-<hr/>
-<h2>Logs<h2/>
 <table border="5">
         <thead>
             <tr>
-                <th width="350">S.No</th>
                 <th width="350">Date</th>
                 <th width="350">Member's Name</th>
                 <th width="350">Task</th>
@@ -116,7 +86,6 @@ Date:
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
                 <td>8/8/2021</td>
                 <td>Harshit</td>
                 <td>Lesson 1 Completed...</td>
@@ -124,7 +93,6 @@ Date:
                 <td></td>
               </tr>
               <tr>
-                <td>2</td>
                 <td>9/8/2021</td>
                 <td>Satwik</td>
                 <td>Lesson 1 Completed...</td>
@@ -132,7 +100,6 @@ Date:
                 <td></td>
               </tr>
               <tr>
-                <td>3</td>
                 <td>9/8/2021</td>
                 <td>Rajat</td>
                 <td>Lesson 1 Completed...</td>
@@ -140,7 +107,6 @@ Date:
                 <td></td>
               </tr>
               <tr>
-                <td>2</td>
                 <td>9/8/2021</td>
                 <td>Harshita Sharma</td>
                 <td>Lesson 1 Completed.</td>
@@ -148,7 +114,6 @@ Date:
                 <td></td>
               </tr>
               <tr>
-                <td>2</td>
                 <td>9/8/2021</td>
                 <td>Suhani Maheshwari</td>
                 <td>Lesson 1 Completed...</td>
@@ -156,7 +121,6 @@ Date:
                 <td></td>
               </tr>
               <tr>
-                <td>2</td>
                 <td>10/8/2021</td>
                 <td>Satwik</td>
                 <td>Lesson 2 Completed...</td>
