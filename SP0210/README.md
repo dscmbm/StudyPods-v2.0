@@ -155,6 +155,14 @@ Date:
                 <td>NO</td>
                 <td></td>
               </tr>
+              <tr>
+                <td>2</td>
+                <td>10/8/2021</td>
+                <td>Satwik</td>
+                <td>Lesson 2 Completed...</td>
+                <td>NO</td>
+                <td></td>
+              </tr>
             </tbody>
         </table>
 
