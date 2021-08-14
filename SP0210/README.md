@@ -175,8 +175,10 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
                 <td>Lesson 3 Completed...</td>
                 <td>NO</td>
                 <td></td>
+              </tr>
+              <tr>
                 <td>13/8/2021</td>
-                 <td>Satwik</td>
+                <td>Satwik</td>
                 <td>Lesson 3 Complete</td>
                 <td>NO</td>
                 <td></td>
@@ -193,6 +195,13 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
                 <td>Suhani Maheshwari</td>
                 <td>Lesson 4 Half Completed</td>
                 <td>NO</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>14/8/2021</td>
+                <td>Satwik</td>
+                <td>lesson 4 half Complete, started lesson 5</td>
+                <td>I want more examples of data cleaning</td>
                 <td></td>
               </tr>
             </tbody>
