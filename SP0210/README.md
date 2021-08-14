@@ -225,6 +225,12 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
 
                
               </tr>
+              <tr>
+                <td>14/8/2021</td>
+                <td>Suhani Maheshwari</td>
+                <td>Continuing Lesson 4.</td>
+                <td>Facing some problem</td>
+              </tr>
             </tbody>
         </table>
 
