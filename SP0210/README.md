@@ -250,6 +250,13 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
                 <td>NO</td>
                 <td></td>
               </tr>
+              <tr>
+                <td>16/8/2021</td>
+                <td>Satwik</td>
+                <td>1 question of Lesson 4th</td>
+                <td>Sql queries are tough</td>
+                <td></td>
+              </tr>
             </tbody>
         </table>
 
