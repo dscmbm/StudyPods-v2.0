@@ -56,19 +56,18 @@ Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning am
 
 ## SP02__
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0226 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+Anurag Vijay Vergiya<br>
+Gaurav Kasera<br>
+Garima vaishnav<br>
+Bhanu priya dixit
 
 ### Mentor
 
-Mentor1
+Kalpesh Sompura
 
 ## Daily Logs
 
