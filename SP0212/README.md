@@ -41,8 +41,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
           </ul>  
         </li>
       -->
-      <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
+        
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -54,70 +53,39 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0212
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0212 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+Mansi Maheshwari<br>
+Mohit Phuldaliya<br>
+Mansi Gupta     <br>
+Megha Lakhawat  <br>
 
 ### Mentor
 
-Mentor1
-
-## Daily Logs
-
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
+Harshit Garg
 
 ## Project
 
 This section contains the details about the different projects made by the team.
 
-### Project 1
-
+### MBM CLUB HUB FRONT-END WEBSITE
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
+Welcome to MBM CLUB HUB!!
+We are glad and grateful you are here..
+We exist to provide a every information regarding all the club's in MBM..
+We are honoured to help the folks About knowing all the club's offered by our college and paves the way for how he/ she can join the club's ..
+The main idea behind this website is that as a student who comes directly from school life to college life , we didn't actually know what other curricular activities going on in our college and which club as an individual we should join...
+In this website we have made a html form using which the person can register himself for any club of their choice..
+Happy Learning!!
 
-### Project 2
+Right now in this website we have only used HTML and CSS i.e ( complete front- end)..
+
+
 
 ## License
 
