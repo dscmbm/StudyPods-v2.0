@@ -41,7 +41,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
           </ul>  
         </li>
       -->
-        <h1> MBM CLUB HUB FRONT-END WEBSITE</h1>
+        
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -53,16 +53,16 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0212
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0212 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-1) Mansi Maheshwari<br>
-2) Mohit Phuldaliya<br>
-3) Mansi Gupta<br> 
-4)Megha Lakhawat<br>
+Mansi Maheshwari<br>
+Mohit Phuldaliya<br>
+Mansi Gupta     <br>
+Megha Lakhawat  <br>
 
 ### Mentor
 
@@ -110,12 +110,20 @@ Date:
 
 This section contains the details about the different projects made by the team.
 
-### Project 1
-
+### MBM CLUB HUB FRONT-END WEBSITE
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
+Welcome to MBM CLUB HUB!!
+We are glad and grateful you are here..
+We exist to provide a every information regarding all the club's in MBM..
+We are honoured to help the folks About knowing all the club's offered by our college and paves the way for how he/ she can join the club's ..
+The main idea behind this website is that as a student who comes directly from school life to college life , we didn't actually know what other curricular activities going on in our college and which club as an individual we should join...
+In this website we have made a html form using which the person can register himself for any club of their choice..
+Happy Learning!!
 
-### Project 2
+Right now in this website we have only used HTML and CSS i.e ( complete front- end)..
+
+
 
 ## License
 
