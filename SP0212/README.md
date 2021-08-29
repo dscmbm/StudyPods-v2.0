@@ -41,8 +41,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
           </ul>  
         </li>
       -->
-      <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
+        <h1> MBM CLUB HUB FRONT-END WEBSITE</h1>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -60,15 +59,14 @@ SP02__ is an amazing team built by the efforts of its team members and the suppo
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+1) Mansi Maheshwari<br>
+2) Mohit Phuldaliya<br>
+3) Mansi Gupta<br> 
+4)Megha Lakhawat<br>
 
 ### Mentor
 
-Mentor1
+Harshit Garg
 
 ## Daily Logs
 
