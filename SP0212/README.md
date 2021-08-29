@@ -68,44 +68,6 @@ Megha Lakhawat  <br>
 
 Harshit Garg
 
-## Daily Logs
-
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
-
 ## Project
 
 This section contains the details about the different projects made by the team.
