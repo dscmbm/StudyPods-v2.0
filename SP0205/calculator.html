@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="https://farm4.staticflickr.com/3045/4564840793_6da1fe2cd5_o.jpg" />
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: white;
+            font-family: sans-serif;
+            outline: none;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+
+        }
+        .calculator{
+            background-color:white;
+            padding: 15px;
+            border-radius: 30px;
+            box-shadow: 5px 5px  12px #ffffff,
+                        5px 5px  12px  rgba(0,0,0,.16);
+            display: grid;
+            grid-template-columns: repeat(4,68px);
+            display: grid;
+            box-shadow: 0 0 0 1px rgb(0 0 0 /5%),0 2px 3px 0 rgb(0 0 0 /10%);
+            border: none;
+            box-shadow: 10px 10px 15px 3px grey inset;
+            user-select: none;
+
+        }
+        input{
+
+             border-radius: 10px;
+             font-size: 30px;
+             text-align: end;
+             height: 70px;
+             width: 100%;
+             margin-top: 10px;
+             margin-bottom: 20px;
+             grid-column: span 4;
+             padding-right: 10px;
+             color: #111;
+             border-right: 1px solid #bfdcf0;
+             border-bottom: 1px solid #bfdcf0;
+             border-left:1px solid #bfdcf0;
+             border-top: 4px solid #0072c5;
+             background-color: #f2f8fc; 
+            /* box-shadow: 10px 10px 15px 3px white inset;*/
+
+        }
+        button{
+            height:48px ;
+            width:48px ;
+            background-color:white;
+            box-shadow: -3px -3px 6px ,
+                          3px 3px 6px rgba(0,0,0,.16);
+            border: none;
+            border-radius: 50%;
+            margin: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            
+
+        }
+        .calculator button:active{
+            background: aliceblue;
+            color:#111;
+        }
+        .equal{
+            width: 115px;
+            border-radius: 40px;
+            background-color:skyblue;
+            box-shadow: -5px -5px 12px ,
+                          5px 5px 12px rgba(0,0,0,.16);
+
+        }
+        .clr{
+            color:white;
+            background-color: red;
+            box-shadow: -5px -5px 12px ,
+                          5px 5px 12px rgba(0,0,0,.16);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="output-screen">
+        <button onclick="Clear()"  class="clr">Cl</button>
+        <button onclick="del()">DEL</button>
+        <button onclick="display('%')">%</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')">*</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('+')">+</button> 
+        <button onclick="display('.')">.</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="Calculate()" class="equal">=</button>
+    </div>
+    </div>
+    <script>
+        let outputScreen=document.getElementById("output-screen");
+        function display(num){
+            outputScreen.value+=num;
+        }
+        function Calculate(){
+            try{
+                outputScreen.value = eval(outputScreen.value);
+            }
+            catch{
+                alert("Pleade!Enter a valid input");
+            }
+        }
+        function Clear()
+        {
+            outputScreen.value="";
+        }
+        function del(){
+            outputScreen.value=outputScreen.value.slice(0,-1);
+        }
+    </script>
+    
+</body>
+</html>
