@@ -76,13 +76,13 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
 
 ### Format
 
-The log should follow this structure
+The log should follow this structure<br>
 
-```
-Date:-21/07/2021
 
-  Prem Soni (Leader):
-  # Studypod2.0
+Date:-21/07/2021<br>
+
+  Prem Soni (Leader):<br>
+  # Studypod2.0<br>
 <body>
      <div>
     <p><b>Name : </b><i>Prem Kumar</i></p>
@@ -348,6 +348,7 @@ Date:-21/07/2021
         </table>
     </div>
 </body>
+<br>
 
 
 
@@ -1503,7 +1504,7 @@ video to learn css in hindi with notes. </td>
 </body>
 
 
-```
+
 
 ### Logs
 
