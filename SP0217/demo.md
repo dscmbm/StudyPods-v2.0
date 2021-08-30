@@ -68,11 +68,14 @@ Divyanshu Parihar
 
 ### Mentor
 
-Divya Chopra 
+## Divya Chopra 
 
-<!-- ## Daily Logs -->
+
+<!-- ## Daily Logs 
 
 Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+
+
 
 ### Format
 
@@ -103,7 +106,7 @@ Date:
 ```
 
 ### Logs
-
+-->
 ## Resources
 1) Code with Harry
 https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL
@@ -130,7 +133,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Email - https://github.com/Sakshi-1701 \
 LinkedIn - https://www.linkedin.com/in/sakshi-vashishtha-9bb320207/ \
 GitHub - vashishthasakshi2@gmail.com
-
 ## 2. Simran Bhardwaj
 Email - simranbhardwaj2607@gmail.com \
 LinkedIn - https://www.linkedin.com/in/simran-bhardwaj-b82590197 \
