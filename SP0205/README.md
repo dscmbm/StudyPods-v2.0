@@ -79,10 +79,11 @@ Daily Logs is an important activity planned by DSC MBM to motivate participants 
 The log should follow this structure<br>
 
 
-Date:-21/07/2021<br>
+Date:-21/07/2021 to 21/08/2021<br>
 
-  Prem Soni (Leader):<br>
+ 
   # Studypod2.0<br>
+  Prem Kumar:<br>
 <body>
      <div>
     <p><b>Name : </b><i>Prem Kumar</i></p>
