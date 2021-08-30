@@ -468,7 +468,7 @@ Date:-21/07/2021<br>
                   <td>no</td>
                   <td></td>
 </tr>
-    <tr>            
+              
 <tr>                   
               <td>22</td>
                   <td>11/08/2021</td>
@@ -648,6 +648,8 @@ video to learn css in hindi with notes. </td>
                   <td></td>
     </tr>
     </tbody>
+    </table>
+  <div>
     </body>
   <br>
 
@@ -1506,7 +1508,7 @@ video to learn css in hindi with notes. </td>
         </table>
     </div>
 </body>
-  <br>
+  
 
 ### Logs
 
