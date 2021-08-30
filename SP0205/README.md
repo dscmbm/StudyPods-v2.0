@@ -927,8 +927,7 @@ video to learn css in hindi with notes. </td>
 
  Priyanshi Dubey:<br>
  <body>
-   
-        <div>
+       <div>
        <p><b>Name : </b><i>Priyanshi dubey</i></p>
        <p><b>Branch : </b><i>Chemical</i></p>
        <p><b>Year : </b><i>1st</i></p>
@@ -1504,11 +1503,11 @@ video to learn css in hindi with notes. </td>
                     <td>No</td>
                     <td>--</td>
                  </tr>  
-
               </tbody>
         </table>
     </div>
 </body>
+  <br>
   
 
 ### Logs
@@ -1534,6 +1533,7 @@ A music Player in which you can listen musics this is a  large project of our te
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
+  <br>
 
 email id :- pk1838142@gmail.com , priya1balundiya.212@gmail.com , priyanshidubey2k3@gmail.com , jainkashish816@gmail.com , gandhi2002prince@gmail.com<br>
 Github links:- <br>
@@ -1542,7 +1542,7 @@ https://github.com/kashishjain123/studypods..2.0<br>
 https://github.com/prince27122002/studypods2.0<br>
 https://github.com/Premsoni2k2/Premsoni2k2.git<br>
 https://github.com/priyanshi2k3/Study-pods-2.0<br>
-Linkedin link:- https://www.linkedin.com/in/priya-balundiya-b48111213
+Linkedin link:- https://www.linkedin.com/in/priya-balundiya-b48111213<br>
 
 
 
