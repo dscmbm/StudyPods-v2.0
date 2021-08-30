@@ -352,7 +352,7 @@ Date:-21/07/2021<br>
 
 
 
-  Kashish Jain:
+  Kashish Jain:<br>
   <body>
   <table id="header" border="0" width="100" bgcolor="#292929">
       <tr>
@@ -649,10 +649,11 @@ video to learn css in hindi with notes. </td>
     </tr>
     </tbody>
     </body>
+  <br>
 
     
 
-  Prince Gandhi:
+  Prince Gandhi:<br>
  
 <body>
      <div>
@@ -919,9 +920,10 @@ video to learn css in hindi with notes. </td>
         </table>
     </div>
 </body>
+  <br>
 
 
- Priyanshi Dubey:
+ Priyanshi Dubey:<br>
  <body>
         <div>
        <p><b>Name : </b><i>Priyanshi dubey</i></p>
@@ -1211,8 +1213,9 @@ video to learn css in hindi with notes. </td>
            </table>
        </div>
    </body>
+  <br>
    
-   Priya Balundiya:
+   Priya Balundiya:<br>
    <body>
     <table id="header" border="0" width="100" bgcolor="#292929">
         <tr>
@@ -1502,9 +1505,7 @@ video to learn css in hindi with notes. </td>
         </table>
     </div>
 </body>
-
-
-
+  <br>
 
 ### Logs
 
