@@ -2,7 +2,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0205 </h1>
 
 This is the folder for team SP0205 , participating in StudyPods v2.0 by Developers Student Club MBM.
 
@@ -925,6 +925,7 @@ video to learn css in hindi with notes. </td>
 
  Priyanshi Dubey:<br>
  <body>
+   
         <div>
        <p><b>Name : </b><i>Priyanshi dubey</i></p>
        <p><b>Branch : </b><i>Chemical</i></p>
