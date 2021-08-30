@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;}
+ .hr{
+    color: white;
+    width: 90vw;
+    margin:0px 5vw;
+ }
+
+header{
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+   background: #333;
+}
+.navihead{margin-left: 5px;
+   }
+.navihead ul{
+    display: flex;
+    flex-direction: row;
+}
+.navihead li{
+    list-style: none;
+    margin: 10px 10px;    
+}
+.navihead li :hover{
+
+    background:white;
+    color: tomato;
+    border-radius: 4px;
+  
+    }
+.navihead a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px 3px 4px;
+}
+.navifoot{
+    display: flex;
+    
+}
+.navifoot ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.navifoot li{
+    
+    list-style: none;
+    margin: 5px 15px 15px 15px;
+  
+    
+}
+.navifoot li:hover{
+    background: white;
+  
+    border-radius: 4px;
+    transition: all linear 0.3s;
+} 
+.navifoot a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 4px 3px 4px;
+    
+}
+.navifoot a:hover{
+    color: tomato;
+}
+.container {
+    background: #f4f4f4;
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    flex-direction: column;
+  }
+  .tripbg{
+    display: flex;
+  }
+  .tripbg1{
+    display: flex;
+  }
+  .box2 {
+    margin:4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    height: 45vh;
+    max-width: 216px;
+    max-height: 270px;
+   
+    color: white;
+    padding-top: 5vh;
+    padding-left: 1vw ;
+    justify-content: flex-end;
+    border-radius: 5px;
+    align-content: space-between;
+   transition: .7s;
+
+}
+.indiabox2 {
+    margin: 5vh 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 45vh;
+    max-width: 345px;
+    max-height: 360px;
+    color: white;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+    justify-content: flex-end;
+
+    align-content: space-between;
+  }
+
+
+.box2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  z-index: 2;
+
+}
+.box3{
+    margin: 4vh 10px;
+    transition: .7s;
+}
+.box3:hover{
+    transform: scale(.9);
+    z-index: 2;
+}
+.box3 img{
+    width :27vw;
+     height : 35vh;
+     border-radius: 5px;
+     max-width: 440px;
+     max-height: 266px;
+}
+.box3 iframe{
+    width :27vw;
+     height : 45vh;
+     border-radius: 5px;
+     max-width: 440px;
+     max-height: 266px;
+}
+.filter {
+    background: white;
+    color: tomato;
+    border: 2px solid tomato;
+    width: 8vw;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 7vh;
+  }
+ .filter:hover {
+    background: #333;
+    color: white;
+    border: white;
+    transition: all 0.2s linear;
+  }
+footer{
+    height: 50vh;
+    align-self: baseline;
+    background :#0d6efd40;
+    text-align: center;
+    color: black;
+    border: 2vh;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+
+}
+.bi {
+
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 35px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.bi:hover {
+ 
+font-weight: bolder;
+}
+
+.bi-linkedin {
+  color:#0a66c2;
+transition: 0.5s;}
+.bi-youtube {
+  color:red;
+}
+
+.bi-instagram {
+  
+  color: tomato;
+}
+.connect{font-size: 60px;}
+.checkbtn {
+  font-size: 30px;
+  color: rgb(223, 223, 223);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media screen and (max-width:1024px){
+    #country {
+      
+        height: 40px;
+        width: 200px;
+      }
+      #state {
+      
+        height: 40px;
+        width: 200px;
+      }
+      #region {
+      
+        height: 40px;
+        width: 200px;
+      }
+      .filter{
+          width:100px;
+      }
+      .offices{
+          margin-left: 25px;
+      }
+}
+@media screen and (max-width:768px){
+  .checkbtn {
+    display: block;
+  }
+  .navifoot ul {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #333;
+   
+    top: 80px;
+    left: -100%;
+    margin-top: 14px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .navifoot ul li {
+    display: block;
+    margin: 5px 0px;
+    line-height: 30px;
+  }
+.navifoot ul li :hover{
+  box-sizing: content-box;
+}
+  .navifoot ul li a {
+    font-size: 20px;
+    color: tomato;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+    .tripbg{
+        max-height: 360px;
+        display: flex;
+        overflow-x: auto;
+      }
+      .tripbg::-webkit-scrollbar{
+          width: 0;
+      }
+      .tripbg .box2 {
+        margin:4vh 1vw;
+        width: 190px;
+        height: 230px;
+        min-width: 190px;
+        line-height: 20px;
+    }
+    .tripbg1{
+        display: flex;
+        align-items:center;
+        flex-direction: column; 
+    }
+    .tripbg1::-webkit-scrollbar{
+        width: 0;
+    }
+    .tripbg1 img {
+        
+      width: 95vw;
+        margin-top: -34px;
+    }
+    .tripbg1 iframe {
+        width: 95vw;
+        margin-top: -20px;
+    }
+.respo img{height :150px;
+width: auto;
+}
+.tripbg .indiabox2 {
+        margin:4vh 1vw;
+        width: 270vw;
+        height: 280px;
+        min-width: 280px;
+        line-height: 20px;
+    
+} 
+  .filter{
+margin-left: 15px;
+width: 50px;}
+.selecter{
+    margin-left: 15px;
+}
+.filter{
+    width: 70px;
+}
+
+}
+@media screen  and (max-width:540px){
+ 
+    .navifoot ul{
+        flex-direction: column;
+    }
+    .navihead li{margin-left: -30px;
+    margin-right: 40px;}
+    .navifoot li{margin-left: -25px;
+   }
+   .filter{
+     margin-top: 5px;
+   }
+   .box2:focus-visible{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .connect{font-size: 40px;}
+}
