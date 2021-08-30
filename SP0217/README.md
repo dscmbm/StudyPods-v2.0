@@ -13,7 +13,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0201">SP0217</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
