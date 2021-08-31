@@ -1,140 +1,75 @@
-<!-- PROJECT SHIELDS -->
-[![MIT License][license-shield]][license-url]
-[![Discord][discord-shield]][discord-url]
+# StudyPOD---SP0236-project
 
-<h1 align="center"> SP02__ </h1>
+## studyPOD 2.0
+### Domain- UX/UI
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
-    </li>
-    <li>
-      <a href="#sp0201">SP02__</a>
-      <ul>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#mentor">Mentor</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#daily-logs">Daily Logs</a>
-      <ul>
-        <li><a href="#format">Format</a></li>
-        <li><a href="#logs">Logs</a></li>
-      </ul>
-    </li>
-    <li><a href="#resources">Resources</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li>
-      <a href="#project">Projects</a>
-      <ul>
-      <!--
-        <li><a href="#overview">Overview</a></li>
-        <li>
-          <a href="#getting-started">Getting Started</a>
-          <ul>
-            <li><a href="#prerequisites">Prerequisites</a></li>
-            <li><a href="#installation">Installation</a></li>
-          </ul>  
-        </li>
-      -->
-      <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
-      </ul>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
-## About StudyPods v2.0
 
-Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
 
-### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
 
-### Mentor
-
-Mentor1
-
-## Daily Logs
-
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
+```bash
+DAILY REPORT
 ```
 
-### Logs
 
-## Resources
 
-## Roadmap
+bash
+``````
+NAME-            DINESH KUMAR
 
-## Project
+YEAR-            FIRST
 
-This section contains the details about the different projects made by the team.
+POD NUMBER-      SP0236
 
-### Project 1
+MENTOR-          MAITREYI SHARMA
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
 
-### Project 2
 
-## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
 
-<!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
-[license-url]: https://github.com/dscmbm/StudyPods-v2.0/blob/main/LICENSE
-[discord-shield]: https://img.shields.io/discord/864499877723504640?style=for-the-badge
-[discord-url]: https://discord.gg/fe9s82cE56
+
+
+
+| Sr. No.  | Date      | What we learnt                    |
+| :---------- | :---------- | :---------------------------- |
+| 1 | july 21,2021 | Basics of UI design |
+| 2 | july 22,2021 | Basics of UX design |
+| 3 | july 23,2021 | Overview of interface of Figma |
+| 4 | july 24,2021 | Tools of Figma |
+| 5 | july 25,2021 | Did nothing |
+| 6 | july 26,2021 | Searched and made accounts in designer community platforms |
+| 6 | july 27,2021 | Disigned a app with the help of a youtube tuotrial |
+| 7 | july 28,2021 | Visuality principles |
+| 8 | july 29,2021 | Usability principles |
+| 9 | july 30,2021 | Ethical principles |
+| 10 | july 31,2021 | Tools, workflow and collaboration|
+| 11 | August 1,2021 | Off day |
+| 12 | August 2,2021 | Color theory |
+| 13 | August 3,2021 | Color theory |
+| 14 | August 4,2021 | Typography |
+| 15 | August 5,2021 | Typography |
+| 16 | August 6,2021 | Learnt how to design a landing page in Photoshop |
+| 17 | August 7,2021 | Learnt how to design a landing page in Illustrator |
+| 18 | August 8,2021 | Did nothing |
+| 19 | August 9,2021 | Designed a Landign page by my own |
+| 20 | August 10,2021 | Listened 2 podcasts named "Wireframe" |
+| 21 | August 11,2021 | Podcasts about UI and UX |
+| 22 | August 12,2021 | Did nothing|
+| 23 | August 13,2021 | Did nothing |
+| 24 | August 14,2021 | Wireframed an app |
+| 25 | August 15,2021 | A more advanced design in Figma |
+| 26 | August 16,2021 | Read a case study of Nintendo Mario Game |
+| 27 | August 17,2021 | Designed a background using Photoshop and Illustrator |
+| 28 | August 18,2021 | Learnt how to write a case study |
+| 29 | August 19,2021 | Read some reviews on Playstore |
+| 30 | August 20,2021 | Started working on my project |
+| 31 | August 21,2021 | Off day |
+
+
