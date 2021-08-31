@@ -2,9 +2,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0237 </h1>
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+This is the folder for team SP0237 participating in StudyPods v2.0 by Developers Student Club MBM.
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -13,7 +13,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0237">SP0237</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -42,8 +42,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
         </li>
       -->
       <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
-      </ul>
+     </ul>
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -54,70 +53,27 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0237
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0237 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+Priyanshu Panwar<br>
 
 ### Mentor
 
-Mentor1
+Tanmay Mathur
 
-## Daily Logs
-
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+Student Database System
 
 ### Project 1
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+The Project is created in GOLANG. MS Access & ODBC use as database in this project.   
 
-### Project 2
 
 ## License
 
@@ -125,13 +81,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-<!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
+princerajput12112@gmail.com</br>
+https://www.linkedin.com/in/priyanshu-singh-4877241a1/</br>
+https://github.com/priyanshusingh9694/<br>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
