@@ -2,7 +2,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0237 </h1>
 
 This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
 
@@ -82,13 +82,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-<!-- Share your contact details. Preferrably these details
+
 princerajput12112@gmail.com
 https://www.linkedin.com/in/priyanshu-singh-4877241a1/
 https://github.com/priyanshusingh9694/
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
