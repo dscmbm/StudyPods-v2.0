@@ -42,7 +42,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
         </li>
       -->
       <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
+     
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -83,9 +83,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 
-princerajput12112@gmail.com
-https://www.linkedin.com/in/priyanshu-singh-4877241a1/
-https://github.com/priyanshusingh9694/
+princerajput12112@gmail.com</br>
+https://www.linkedin.com/in/priyanshu-singh-4877241a1/</br>
+https://github.com/priyanshusingh9694/<br>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
