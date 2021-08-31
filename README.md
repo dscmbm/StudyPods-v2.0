@@ -1,10 +1,10 @@
-﻿<!-- PROJECT SHIELDS -->
+<!-- PROJECT SHIELDS -->
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0207 </h1>
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+This is the folder for team SP0207 participating in StudyPods v2.0 by Developers Student Club MBM.
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -13,7 +13,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0201">SP0207</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -54,21 +54,21 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP0204
+## SP02__
 
-SP0204 is an amazing team built by the efforts of its team members and the support of its mentors
+SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Khushi Purohit<br>
-Khushi Bansal<br>
-Karishma Sharma<br>
-Aparna Jain<br>
-Khushbu Bijawat<br>
+Lakshita Suthar<br>
+Vikram Singh Rathore<br>
+Person3<br>
+Person4<br>
+Person5
 
 ### Mentor
 
-Harshita Sharma
+Amrit Lal
 
 ## Daily Logs
 
@@ -114,7 +114,7 @@ This section contains the details about the different projects made by the team.
 
 ### Project 1
 
-<!-- Our project "MBM FUN ZONE" is basically a game zone where user can play 6 different fun games in the interface like Tic Tac Toe, Dice Roller Game, Mystery Numbers Game and it also consist some fun activities like Kaun Banega Bollywood Star and Fortune Trio. All these games are created by the team in C language.
+<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
 
 ### Project 2
@@ -127,26 +127,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- Share your contact details. Preferrably these details
 Email
-Khushi Purohit- khushisvpurohit@gmail.com
-Khushi Bansal- bansalkhushi899@gmail.com
-Karishma Sharma- ghoshikarishma1@gmail.com
-Aparna Jain- aj.aparnajain13@gmail.com
-Khushbu Bijawat- khushbubijawat31@gmail.com
-
 LinkedIn
-Khushi Purohit- https://www.linkedin.com/in/khushi-purohit-a3739a201
-Khushi Bansal- https://www.linkedin.com/in/khushi-bansal-001520201
-Karishma Sharma- https://www.linkedin.com/in/karishmasharma07
-Aparna Jain- https://www.linkedin.com/in/aparna-jain-763ba5202
-Khushbu Bijawat- https://www.linkedin.com/in/khushbu-bijawat-27b4a11b3
-
 GitHub
-Khushi Purohit- https://github.com/Khushipurohit
-Khushi Bansal- https://github.com/khushibansal26
-Karishma Sharma- https://github.com/sharmakarish
-Aparna Jain- https://github.com/Aparnajain136
-Khushbu Bijawat- https://github.com/khushbubijawat
-
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->
