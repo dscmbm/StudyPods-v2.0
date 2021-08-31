@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+}
+body {
+  top: 0;
+  
+  background: url('bus1.jpg') no-repeat center center/cover;
+  
+  float: left;
+}
+
+
+
+.btn {
+  cursor: pointer;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container {
+float: right;
+font-family: 'Baloo Bhai 2', cursive;
+margin: 104px 445px;
+padding: 75px;
+background-color: rgb(162 163 165);
+border-radius: 61px;
+opacity: 0.89;
+}
+
+.form-group {
+
+  padding: 3px;
+  margin: 3px;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.bus{
+  text-align: center;
+
+font-weight: bold;
+color: #fefeff;
+background: rgb(13, 14, 14);
+left: 0%;
+margin: 0px 311px;
+border-radius: 20px;
+position: sticky;
+}
+#time{
+    color: azure;
+    font-style: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0 418px;
+      }
+      .con{
+          margin-top:24px ;
+      }
+
+</style>
+</head>
+
+<body>
+    <h1 class="bus">BUS BOOKING</h1>
+    <div class="con">
+        <span id="time"></span>
+     </div>
+
+    </header>
+    <div class="container">
+        <h1>Book Your Ticket Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="Age">Age</label>
+                <input type="text" Age="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group"> 
+                  <label for="email">E-mail</label>
+                <input type="text" Email="" placeholder="Enter Your Email">
+            </div>
+         
+            <div>
+                Gender : Male <input type="radio" name="myGender"> Female <input type="radio"  name="myGender">
+            </div>
+          
+            <div>
+                <label for="Destination"> From </label>
+                <select name="myDestination" id="Destination">
+                    <option value="Select"> Select </option>
+                    <option value="Kota"> Kota </option>
+                    <option value="Jaipur"> Jaipur </option>
+                    <option value="Ajmer"> Ajmer </option>
+                    <option value="Jodhpur"> Jodhpur </option>
+                    <option value="Indore"> Indore </option>
+                    <option value="Mumbai"> Mumbai </option>
+                    <option value="Chennai"> Chennai </option>
+                </select>
+            </div>
+            <div>
+                <label for="Destination"> To</label>
+                <select name="myDestination" id="Destination">
+                    <option value="Select"> Select </option>
+                    <option value="Kota"> Kota </option>
+                    <option value="Jaipur"> Jaipur </option>
+                    <option value="Ajmer"> Ajmer </option>
+                    <option value="Jodhpur"> Jodhpur </option>
+                    <option value="Indore"> Indore </option>
+                    <option value="Mumbai"> Mumbai </option>
+                    <option value="Chennai"> Chennai </option>
+                </select>
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <br>
+    <a href="firstpage.html">Previous Page</a>
+</body>
+<script>
+
+   function updatetime() {
+         time.innerHTML =  new Date();
+         document.getElementById("time").innerHTML = new Date();
+     }
+   setInterval(updatetime,1000);
+</script>
+
+</html>

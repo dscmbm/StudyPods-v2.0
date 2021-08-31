@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --navbar-height: 100px;
+}
+body{
+     background: url('andre-benz-JnB8Gio4GZo-unsplash.jpg') no-repeat center center/cover;
+     /* background: url('download\ \(2\).jfif ' ); */
+     position: relative;
+    
+    /* /* z-index: 1; */
+    opacity: 0.89;
+} 
+.navbar{
+        display: flex;
+        background-color: black;
+    }
+
+    
+    ul{
+      display: flex;
+      
+    }
+    .navbar ul li{
+            margin: 30px;  
+      }
+    .navbar ul li a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Baloo Bhai', cursive;
+    }
+    .navbar ul li a:hover{
+        color: rgb(3, 3, 3);
+        background-color:white ;
+        border-radius: 2px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 98px;
+   }
+
+    .container h1{
+        font-size:50px;
+        margin: 20px;
+        color:white;
+        font-family: 'Baloo Bhai', cursive;
+    }
+    #search {
+        padding: 19px 155px;
+    border-radius: 35px
+
+    }
+  .container p{
+    margin: 31px;
+    padding: 10px 256px;
+     color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    /* font-family: 'Baloo Bhai', cursive; */
+    ont-family: "Google Sans", sans-serif;
+  }
+  #booking{
+    margin: -236px 26px;
+    
+    
+     
+  }
+  #ticket{
+      display: flex;
+      /* margin: 20px; */
+    /* border: 2px solid red; */
+   
+
+  }
+
+  #ticket .box{
+    border: 2px solid brown;
+    padding: 93px;
+    margin: 128px 80px;
+    border-radius: 28px;
+    /* background-color: rgb(222 217 217); */
+    background: url(billow926-cy7OZAJJ6vU-unsplash.jpg) no-repeat center center/cover;
+  }
+#ticket .box img{
+  height: 101px;
+    display: block;
+    margin: 8px;
+    border-radius: 48px;
+}
+  } 
+  #ticket .box h2{
+   text-align: center;
+  }
+  
+  #ticket .box a{
+   
+    /* font-family: 'Baloo Bhai', cursive; */
+    color: rgb(34 21 21);
+    /* border: 2px solid red; */
+    border-radius: 6px;
+    background-color: #8bfcfc;
+    text-decoration:none;
+  }
+  #ticket .box a:hover{
+   color: white;
+   background-color: black;
+
+
+  }
+  
+  footer {
+    background-color: rgb(7, 5, 5);
+    padding: 19px 20px;
+    margin: 197px 0px;
+    color: white;
+    margin-bottom:0px ;
+
+    
+}
+.center{
+  text-align: center;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+}
+    

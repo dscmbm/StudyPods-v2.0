@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+ 
+#ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#ticket .box img{
+  display: inline;
+    text-align: center;
+}
+
+#ticket .box {
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
