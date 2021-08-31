@@ -4,7 +4,7 @@
 
 <h1 align="center"> SP0207 </h1>
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+This is the folder for team SP0207 participating in StudyPods v2.0 by Developers Student Club MBM.
 
 <details open="open">
   <summary>Table of Contents</summary>
