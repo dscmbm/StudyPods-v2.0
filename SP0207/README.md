@@ -2,7 +2,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0207 </h1>
 
 This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
 
@@ -13,7 +13,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0201">SP0207</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
