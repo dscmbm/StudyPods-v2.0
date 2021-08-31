@@ -2,9 +2,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0232 </h1>
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+This is the folder for team SP0232 participating in StudyPods v2.0 by Developers Student Club MBM.
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -13,7 +13,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0201">SP0232</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -60,53 +60,15 @@ SP02__ is an amazing team built by the efforts of its team members and the suppo
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+Tanya Agarwal<br>
+Anurag Gupta<br>
+Lokesh Bhati<br>
+Tanmay Goyal<br>
 
 ### Mentor
 
-Mentor1
+Shadab Hussain
 
-## Daily Logs
-
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
 
 ## Project
 
@@ -124,14 +86,11 @@ This section contains the details about the different projects made by the team.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
+anuraggupta3979@gmail.com
+https://www.linkedin.com/in/anurag-gupta-9a76b7201
+https://github.com/Anuraggupta3979
 
-<!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
