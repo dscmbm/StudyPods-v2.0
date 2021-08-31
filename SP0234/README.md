@@ -2,7 +2,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> SP0234 </h1>
 
 This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
 
