@@ -74,7 +74,11 @@ Shadab Hussain
 
 
 ### Prediction
-about
+We have taken data set from Kaggle To predict whether customer will purchase given travel package or not.
+"Trips & Travel.Com" company wants to enable and establish a viable business model to expand the customer base. There are 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King.  Therefore, We pitch a package to customer and predict whether they would purchase it or not. 
+Looking at the data of the last year, we observed that 18% of the customers purchased the packages. However, the marketing cost was quite high because customers were contacted at random without looking at the available information. 
+For this ,customer care of company contacted to customer and pitch a travel package & get feedbacks whether they like the products or they would purchase the products according to their background condition i.e age , monthly income, marital status ,desination etc or according to their requirements. 
+
 
 ## Contact
 anuraggupta3979@gmail.com  <br>
