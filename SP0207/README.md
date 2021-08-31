@@ -60,15 +60,15 @@ SP02__ is an amazing team built by the efforts of its team members and the suppo
 
 ### Team
 
-Person1<br>
-Person2<br>
+Lakshita Suthar<br>
+Vikram Singh Rathore<br>
 Person3<br>
 Person4<br>
 Person5
 
 ### Mentor
 
-Mentor1
+Amrit Lal
 
 ## Daily Logs
 
