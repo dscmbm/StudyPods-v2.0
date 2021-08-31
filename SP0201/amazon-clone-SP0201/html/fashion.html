@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone : Fashion</title>
+    <!-- <link rel="stylesheet" type="text/css" href="amazon-clone-style.css"> -->
+    <style>
+       *{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+   display: flex;
+   background-color: black;
+   color: white;
+   font-size: larger;
+   /* text-align: left; */
+   font-weight: bold;
+   /* border: solid black 5px; */
+   font-family: 'Merriweather', serif;
+   align-items: center;
+   height: 12vh;
+   overflow: hidden;
+}
+
+.logo-img{
+  margin: 8px -38px 0px -40px;
+  background-color: black;
+  color: black;
+  overflow: hidden;
+}
+
+.home-nav{
+   margin: 0;
+   display: flex;
+}
+
+.nav1 {
+   margin: 0px 28px 8px 10px;
+}
+
+.nav1 a {
+   text-decoration: none;
+   color: white;
+}
+
+.nav1 a:hover {
+   /* font-weight: bolder; */
+   border: 3px white solid;
+   color: oldlace;
+}
+
+.head{
+   background-color: rgb(0, 30, 48);
+   height: 5vh;
+}
+
+.head ul li{
+   display: inline;
+   margin:2px;
+   padding-left: 8px;
+   padding-right: 10px;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.head ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+.head ul li:hover{
+   /* color:rgb(247, 219, 99); */
+   border: 3px white solid;
+}
+
+.search-btn{
+   background-color:rgb(233, 132, 16) ;
+   color: black;
+   width: 70px;
+   height: 40px;
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 15px;
+   margin: 0px 0px 7px 0px;
+}
+
+.search-bar{
+   padding: 7px;
+   margin: 0px 0px 7px 0px;
+   background: rgb(255, 255, 255);
+   font-size: 17px;
+   border-radius: 5px;
+   border:3px black;
+   width:50vw;
+ }
+
+ .sign-in{
+   margin: 0px 70px 7px 70px;
+   height: 40px;
+   font-size: 18px;
+   width: 75px;
+   background-color: rgb(247, 219, 99);
+   font-weight: bold;
+   font-family: 'Merriweather', serif;
+}
+
+.cart-img{
+   margin: 0px 0px 9px 0px;
+}
+
+
+
+
+
+.container1 {
+            display: flex;
+            background-color:whitesmoke;
+        }
+
+        .box1 {
+            margin:  15px 31px 26px 38px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .box1 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box img {
+            color: black;
+            background-color: black;
+        }
+
+        #cart {
+            height: 30px;
+            width: 150px;
+            background-color: rgb(233, 132, 16);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+        }
+
+        h4 {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+       
+        .container2{
+            overflow: hidden;
+        }
+
+.back a {
+   text-decoration: none;
+   color: white;
+}
+
+.back a:hover{
+   color: white;
+   font-weight: bolder;
+}
+
+.connect li a{
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
+.back{
+   background-color: rgb(9, 46, 68);
+   line-height: 3; 
+   text-align: center;
+   color: white;
+}
+.end{
+   padding-top: 40px;
+   background-color: rgb(0, 30, 48);
+   color: white;
+   display: flex;
+   padding-left: 150px;
+}
+.end h2{
+   padding-right: 150px;
+}
+.end li{
+   color: white;
+   display: block;
+   line-height: 2;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.choice{
+   background-color: rgb(0, 30, 48);
+   color: white;
+   padding-top: 50px;
+   display: flex; 
+   padding-left: 600px;
+  }
+
+
+  .fashion{
+  width: 90vw;
+  height: 1500px;
+  background-color: gray;
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+ .block{
+    width: 80vw;
+    height: 250px;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    border: black 2px double;
+ }
+ .block img{
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+ }
+ .reqiured{
+    width: 90vw;
+  height: 900px;
+  background-color: rgb(255, 93, 193);
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+ .container1 {
+    display: flex;
+    background-color:whitesmoke;
+    margin-left: 180px;
+ }
+ 
+ .bo1 {
+    margin: 15px 7px 10px 6px;
+    background-color: white;
+    text-align: center;
+ }
+ 
+ .bo1 a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .bo img {
+    color: black;
+    background-color: black;
+ }
+ 
+ #cart {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(233, 132, 16);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+ }
+ 
+ h4 {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+    </style>
+
+</head>
+<body>
+   <header id="back-to-top">
+      <div class="logo-img">
+        <img src="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/06/amazon_logo.jpg?ssl=1" alt="" width="200px" height="150px">
+      </div>
+
+      <div class="home-nav">
+         
+             <div class="nav1"><a href="amazon-clone.html" target="_blank">HOME</a></div>
+             <div class="nav1"><a href="about.html" target="_blank">ABOUT</a></div>
+             <div class="nav1"><a href="contact.html"  target="_blank">CONTACT</a></div>
+         
+        </div>
+ 
+            <input class="search-bar" type="text" placeholder="Search or type category" name="search">
+        
+
+         <div class="search-btn">
+            
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/search-2758901-2290828.png" alt="" width="40px" height="40px">
+         </div>
+         
+        
+
+         
+          <button class="sign-in" onclick="window.location.href = 'login.html';" >sign in</button>
+       
+
+        <div class="cart-img">
+        <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-1/256/2-512.png" alt="" width="50px" height="50px" > 
+      </div>
+
+    </header>
+    <div class="container"><h1>Amazon Fashion</h1></div><hr>
+    <div class="container1">
+        <div class="box1"><a href="">
+                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoarj61CGPLNgaRk4t5MN31buxaW8_x2Q3aA&usqp=CAU" width="200px" height="400px">
+                    <figcaption>
+                        <h4>western casual <br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                            <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                            <button id="cart">Add
+                                to cart</button>
+                    </figcaption>
+                </figure>
+            </a></div><div class="box1"><a href="">
+                <figure><img src="https://i.pinimg.com/236x/be/0b/d5/be0bd5248863a9367e2ad2f0f43ebedb.jpg" width="200px" height="400px">
+                    <figcaption>
+                        <h4>mayra regular fit top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                            <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                            <button id="cart">Add
+                                to cart</button>
+                    </figcaption>
+                </figure>
+            </a></div>
+            <div class="box1"><a href="">
+                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToN0x-vHzxbeQavjSPAysiOK2DKdPuDbE1aQ&usqp=CAU" width="200px" height="400px">
+                    <figcaption>
+                        <h4>t-shirt for women<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                            <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                            <button id="cart">Add
+                                to cart</button>
+                    </figcaption>
+                </figure>
+            </a></div>
+            <div class="box1"><a href="">
+                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqPmxzCupGHXDjIkOqcpizsMmbNd349hDaw&usqp=CAU" width="200px" height="400px">
+                    <figcaption>
+                        <h4>printrd chiffon top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                            <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                            <button id="cart">Add
+                                to cart</button>
+                    </figcaption>
+                </figure>
+            </a></div>
+        </div>
+
+
+
+        <div class="container1">
+            <div class="box1"><a href="">
+                    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkwifGLOsduFrNJXAOYWKbrMQkq5CFif1Aeg&usqp=CAU" width="200px" height="400px">
+                        <figcaption>
+                            <h4>western casual <br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                                <button id="cart">Add
+                                    to cart</button>
+                        </figcaption>
+                    </figure>
+                </a></div><div class="box1"><a href="">
+                    <figure><img src="https://m.media-amazon.com/images/I/81eTqGZ7cnL._AC_UL480_FMwebp_QL65_.jpg" width="200px" height="400px">
+                        <figcaption>
+                            <h4>mayra regular fit top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                                <button id="cart">Add
+                                    to cart</button>
+                        </figcaption>
+                    </figure>
+                </a></div>
+                <div class="box1"><a href="">
+                    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Wl-oRR9rFVjT3ee83H-2bFQ8PmXNMV1Uvg&usqp=CAU" width="200px" height="400px">
+                        <figcaption>
+                            <h4>t-shirt for women<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                                <button id="cart">Add
+                                    to cart</button>
+                        </figcaption>
+                    </figure>
+                </a></div>
+                <div class="box1"><a href="">
+                    <figure><img src="https://m.media-amazon.com/images/I/8163vttnHSL._AC_UL480_FMwebp_QL65_.jpg" width="200px" height="400px">
+                        <figcaption>
+                            <h4>printrd chiffon top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                                <button id="cart">Add
+                                    to cart</button>
+                        </figcaption>
+                    </figure>
+                </a></div>
+            </div>
+
+
+
+            <div class="container2"><img src="https://i.gadgets360cdn.com/large/amazon-great-freedom-sale-2021_1628135477945.jpg" alt="" width="1800vw" height="550vh"></div>
+            <div class="container2"><img src="https://img.global.news.samsung.com/in/wp-content/uploads/2020/10/Master-banner-Horizontal.jpg" alt="" width="1800vw" height="500vh"></div>
+
+
+
+
+            <div class="container1">
+                <div class="box1"><a href="">
+                        <figure><img src="https://m.media-amazon.com/images/I/714SBHLwEeS._AC_UL480_FMwebp_QL65_.jpg" width="200px" height="400px">
+                            <figcaption>
+                                <h4>western casual <br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                    <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                                    <button id="cart">Add
+                                        to cart</button>
+                            </figcaption>
+                        </figure>
+                    </a></div><div class="box1"><a href="">
+                        <figure><img src="https://m.media-amazon.com/images/I/71nawdTywUL._AC_UL480_FMwebp_QL65_.jpg" width="200px" height="400px">
+                            <figcaption>
+                                <h4>mayra regular fit top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                    <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                                    <button id="cart">Add
+                                        to cart</button>
+                            </figcaption>
+                        </figure>
+                    </a></div>
+                    <div class="box1"><a href="">
+                        <figure><img src="https://m.media-amazon.com/images/I/810T0Igs00L._AC_UL480_QL65_.jpg" width="200px" height="400px">
+                            <figcaption>
+                                <h4>t-shirt for women<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                    <span class="a-price-whole">399</span></h4><button id="cart">buy now</button>
+                                    <button id="cart">Add
+                                        to cart</button>
+                            </figcaption>
+                        </figure>
+                    </a></div>
+                    <div class="box1"><a href="">
+                        <figure><img src="https://m.media-amazon.com/images/I/41aVZ7dorBS._AC_UL480_QL65_.jpg" width="200px" height="400px">
+                            <figcaption>
+                                <h4>printrd chiffon top<br>up to 50% OFF <br>hurry up<br><span class="a-price-symbol">₹</span>
+                                    <span class="a-price-whole">499</span></h4><button id="cart">buy now</button>
+                                    <button id="cart">Add
+                                        to cart</button>
+                            </figcaption>
+                        </figure>
+                    </a></div>
+                </div>
+
+
+                <div class="back"> <a href="#back-to-top"> Back to top</a></div>   
+                <footer >
+                    <div class="end">
+                    <div class="know">
+                      <h2>Get to know us</h2>
+                      <li>About us</li>
+                      <li>Careers</li>
+                      <li>Amazon Cares</li>
+                    </div>
+                    <div class="connect">
+                        <h2>Connect with us</h2>
+                        <li><a href="https://www.facebook.com/AmazonIndiaNews/">facebook</a></li>
+                        <li><a href="https://twitter.com/AmazonNews_IN">twitter</a></li>
+                        <li>instagram</li>
+                    </div>
+                    <div>
+                    <h2>Let Us Help You</h2>
+                    <li>Your Account</li>
+                    <li>Amazon App Download</li>
+                    <li>Amazon Assistant Download</li>
+                    <li>Help</li>
+                   </div><br>
+                </div>
+                <hr>
+                <div class="choice">
+                    <img src="https://jungletopp.com/wp-content/uploads/2020/08/Amazon-1-1.jpg" alt="" width="120px" height="70px">
+                </div>
+                </footer>    
+                </body>
+                <script src="amazonscript.js"></script>
+            </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
