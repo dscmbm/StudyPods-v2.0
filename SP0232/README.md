@@ -54,9 +54,9 @@ This is the folder for team SP0232 participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0232
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0232 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
@@ -74,21 +74,13 @@ Shadab Hussain
 
 This section contains the details about the different projects made by the team.
 
-### Project 1
+### Prediction
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
-
-### Project 2
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-anuraggupta3979@gmail.com
-https://www.linkedin.com/in/anurag-gupta-9a76b7201
-https://github.com/Anuraggupta3979
+anuraggupta3979@gmail.com  <br>
+https://www.linkedin.com/in/anurag-gupta-9a76b7201    <br>
+https://github.com/Anuraggupta3979  <br>
 
 
 
