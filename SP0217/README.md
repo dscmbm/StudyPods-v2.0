@@ -70,10 +70,21 @@ Divyanshu Parihar
 
 Divya Chopra 
 
-<!-- ## Daily Logs 
+## Daily Logs 
 
 Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
 
+### Sakshi Vashishta https://drive.google.com/file/d/1h6jnUU5FdwwBEJ-y7Jb502XMQFW7TYDT/view?usp=sharing
+
+### Simran Bhardwaj https://drive.google.com/file/d/1fyXlN3oBnuYwG1QH3XV4wcQLohYTYFSu/view?usp=sharing
+
+### Sunil Bharati  https://drive.google.com/file/d/1vceOIcpO1buM5WbSIu9lpQsxBhzIohAE/view?usp=sharing
+
+### Priyansh Devpura https://docs.google.com/document/d/1xTjLqYag-L8HB4RK1kmtbxRrkLg0T1hODiKyLb1jvtw/edit?usp=sharing
+
+### Divysnshu Parihar https://drive.google.com/file/d/1XabJchLe4w3Fwj7ZgKxFCe5QGn4LtRgm/view?usp=sharing
+
+<!-- 
 ### Format
 
 The log should follow this structure
