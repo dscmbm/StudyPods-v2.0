@@ -42,8 +42,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
         </li>
       -->
       <li><a href="#project-1">Project 1</a></li>
-     
-      </ul>
+     </ul>
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
