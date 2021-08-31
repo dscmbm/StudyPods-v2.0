@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+   display: flex;
+   background-color: black;
+   color: white;
+   font-size: larger;
+   /* text-align: left; */
+   font-weight: bold;
+   /* border: solid black 5px; */
+   font-family: 'Merriweather', serif;
+   align-items: center;
+   height: 12vh;
+   overflow: hidden;
+}
+/* 
+header ul li a {
+   text-decoration: none;
+   color: white;
+} */
+.logo-img{
+  margin: 8px -38px 0px -40px;
+  background-color: black;
+  color: black;
+  overflow: hidden;
+}
+
+.home-nav{
+   margin: 0;
+   display: flex;
+}
+
+.nav1 {
+   margin: 0px 28px 8px 10px;
+}
+
+.nav1 a {
+   text-decoration: none;
+   color: white;
+   transition: .3s;
+}
+
+.nav1 a:hover {
+   /* font-weight: bolder; */
+   /* border: 3px white solid; */
+   transform: scale(1.2);
+   color: oldlace;
+}
+
+.head{
+   background-color: rgb(0, 30, 48);
+   height: 5vh;
+}
+
+.head ul li{
+   display: inline;
+   margin:2px;
+   padding-left: 8px;
+   padding-right: 10px;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.head ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+.head ul li:hover{
+   /* color:rgb(247, 219, 99); */
+   border: 3px white solid;
+}
+
+.search-btn{
+   background-color:rgb(233, 132, 16) ;
+   color: black;
+   width: 70px;
+   height: 40px;
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 15px;
+   margin: 0px 0px 7px 0px;
+}
+
+.search-bar{
+   padding: 7px;
+   margin: 0px 0px 7px 0px;
+   background: rgb(255, 255, 255);
+   font-size: 17px;
+   border-radius: 5px;
+   border:3px black;
+   width:50vw;
+ }
+
+ .sign-in{
+   margin: 0px 70px 7px 70px;
+   height: 40px;
+   font-size: 18px;
+   width: 75px;
+   background-color: rgb(247, 219, 99);
+   font-weight: bold;
+   font-family: 'Merriweather', serif;
+}
+
+.cart-img{
+   margin: 0px 0px 9px 0px;
+}
+
+h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box a{
+   text-decoration: none;
+   color: black;
+}
+
+.box  :hover{
+   color: black;
+   font-weight: bolder;
+}
+
+.container {
+   display: flex;
+   background-color:whitesmoke;
+}
+
+.box {
+   margin: 40px 128px 46px 6px;
+   background-color: white;
+   text-align: center;
+}
+
+.container2{
+   padding: 12px;
+   display:flexbox;
+   text-align: center;
+   color: white;  
+}
+
+.container3{
+   overflow: hidden;
+}
+
+.offer{
+   background-color: rgb(255, 91, 118);
+   color: rgb(4, 0, 61);
+   height: 40vh;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-right: 20px;
+   border-radius: 10px;
+   border: 4px red solid;
+   width: 40vw;
+   line-height: 2;
+   display: inline-block; 
+}
+
+.offer a {
+   text-decoration: none;
+   color: black;
+}
+
+.offer a:hover{
+   color: black;
+   font-weight: bolder;
+}
+
+.back a {
+   text-decoration: none;
+   color: white;
+}
+
+.back a:hover{
+   color: white;
+   font-weight: bolder;
+}
+
+.connect li a{
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
+.back{
+   background-color: rgb(9, 46, 68);
+   line-height: 3; 
+   text-align: center;
+   color: white;
+}
+.end{
+   padding-top: 40px;
+   background-color: rgb(0, 30, 48);
+   color: white;
+   display: flex;
+   padding-left: 150px;
+}
+.end h2{
+   padding-right: 150px;
+}
+.end li{
+   color: white;
+   display: block;
+   line-height: 2;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.choice{
+   background-color: rgb(0, 30, 48);
+   color: white;
+   padding-top: 50px;
+   display: flex; 
+   padding-left: 600px;
+  }
+.box1 a {
+   text-decoration: none;
+   color: black;
+}
+
+/* @keyframes imagehover {
+   from{
+      width: 210px;
+      height: 230px;
+   }
+
+   to{
+      width: 230px;
+      height: 250px;
+   }
+}
+
+ .box :hover{
+   animation: imagehover 1s linear;
+} */
+/* li{
+   color: rgb(10, 10, 10);
+   list-style: none;
+   display: inline;
+   padding: 0px 12px;
+   line-height: 4;
+}
+a{
+   color: white;
+   text-decoration: none;
+} */
+

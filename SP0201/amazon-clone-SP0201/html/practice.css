@@ -1,0 +1,198 @@
+.signup{
+    background-color: rgb(199, 199, 250);
+    height: 450px;
+    width: 380px;
+    font-weight: bold;
+    border: 4px black solid; 
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+   line-height: 2;
+   margin-top: 50px;
+   margin-left: 500px;
+   font-size: 20px;
+ }
+ .login{
+    background-color: rgb(199, 199, 250);
+    height: 250px;
+    width: 300px;
+    font-weight: bold;
+    border: 4px black solid; 
+    border-radius: 5px;
+    padding-top: 40px;
+    text-align: center;
+   line-height: 3;
+   margin-top: 100px;
+   margin-left: 500px;
+   font-size: 20px;
+ }
+ .newaccount{
+    line-height: 2;
+    text-align: center;
+    font-family:  inherit;
+    font-weight: bold;
+    font-size: 15px;
+ }
+ 
+ 
+ #create{
+    background-color: rgb(252, 219, 99);
+    height: 30px;
+    width: 210px;
+ }
+ .create{
+    background-color: rgb(247, 219, 99);
+    height: 30px;
+    width: 100px;
+ }
+ h5{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ 
+ 
+ /* .red ul li{
+    display: inline;
+    margin:2px;
+    padding-left: 8px;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* size: 15px; */
+   /* } */
+ /* .red ul li:hover{
+    /* color:rgb(247, 219, 99); */
+    /* border: 3px white solid; */
+ /* }   */ 
+ .image{
+    text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ li {
+    list-style: none;
+ }
+ .social {
+    height: 40vh;
+    width: 70vw; 
+    display: flex;
+    /* flex-direction: column; */
+ }
+ .item{
+    margin: 30px;
+ }
+ .item a{
+    color: black;
+    text-decoration: none;
+ }
+ 
+ 
+ .special{
+    width: 900px;
+    height: 200px;
+    background-color: rgb(243, 190, 92);
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: inline-block;
+ }
+ .sp{
+    background-color: rgb(243, 190, 92);
+    width: 300px;
+    color: maroon;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+ }
+ #cart{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .fashion{
+  width: 90vw;
+  height: 1500px;
+  background-color: gray;
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+ .block{
+    width: 80vw;
+    height: 250px;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    border: black 2px double;
+ }
+ .block img{
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+ }
+ .reqiured{
+    width: 90vw;
+  height: 900px;
+  background-color: rgb(255, 93, 193);
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+ .container1 {
+    display: flex;
+    background-color:whitesmoke;
+ }
+ 
+ .bo1 {
+    margin: 15px 7px 10px 6px;
+    background-color: white;
+    text-align: center;
+ }
+ 
+ .bo1 a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .bo img {
+    color: black;
+    background-color: black;
+ }
+ 
+ #cart {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(233, 132, 16);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+ }
+ 
+ h4 {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ .about{
+    background-color: chartreuse;
+    color: crimson;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
