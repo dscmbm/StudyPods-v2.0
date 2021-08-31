@@ -54,9 +54,9 @@ This is the folder for team SP0207 participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0207
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0207 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
