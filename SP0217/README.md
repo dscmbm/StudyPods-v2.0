@@ -135,18 +135,21 @@ GitHub - vashishthasakshi2@gmail.com
 Email - simranbhardwaj2607@gmail.com \
 LinkedIn - https://www.linkedin.com/in/simran-bhardwaj-b82590197 \
 GitHub - github.com/simranb2607
+
 ## 3. Sunil Bharati
 Email - sunilgoswami551@gmail.com \
 LinkedIn - https://www.linkedin.com/in/sunil-bharati-7b13451b9  \
 GitHub - https://github.com/sunilbhara
+
 ## 4. Priyansh Devpura
  Email - priyansh.devpura.1707@gmail.com  \
  LinkedIn - https://www.linkedin.com/in/priyansh-devpura/  \
  GitHub - https://github.com/devpurapriyansh
+ 
 ## 5. Divyanshu Parihar
-Email - 
-LinkedIn
-GitHub
+Email - divyanshuparihar09@gmail.com \
+LinkedIn - https://www.linkedin.com/in/divyanshu-parihar-a99980206 \
+GitHub - https://github.com/divyanshuparihar123
 
 
 
