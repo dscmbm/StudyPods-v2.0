@@ -72,7 +72,6 @@ Shadab Hussain
 
 ## Project
 
-This section contains the details about the different projects made by the team.
 
 ### Prediction
 
