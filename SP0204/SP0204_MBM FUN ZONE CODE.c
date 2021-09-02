@@ -4,8 +4,8 @@
 #include<time.h>
 #include<string.h>
 
-#define WON 0
-#define LOSE 1
+#define luck 0
+#define badluck 1
 int main( ){
 	// THIS CODE IS COMPATIBLE FOR HALF SCREEN
         // In this main function we used simple switch case pattern to jump on the another functions of our team details and another is to enter the fun zone
@@ -57,37 +57,33 @@ printf("              *\t\t\t\t\t     *\n");
 printf("              *       WELCOME TO MBM FUN ZONE        *\n");
 printf("              *\t\t\t\t\t     *\n");
 printf("              *\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd*\n\n\n");
-		printf("1. TIC TAC TOE\n");
-		printf("2. MATCHSTICK GAME\n");
-		printf("3. FORTUNE TRIO \n");
-		printf("4. KAUN BANEGA BOLLYWOOD STAR\n");
-		printf("5. FIND THE MYSTERY NUMBERS\n");
-		printf("6. DICE ROLLER GAME\n");
-		printf("7. GO TO HOME PAGE\n\n");
+		printf("1. MATCHSTICK GAME\n");
+		printf("2. FORTUNE TRIO\n");
+		printf("3. KAUN BANEGA BOLLYWOOD STAR\n");
+		printf("4. MYSTERY NUMBERS\n");
+		printf("5. DICE ROLLER GAME\n");
+		printf("6. GO TO HOME PAGE\n\n");
 		printf("enter your choice:");
 		scanf("%d", &ch);
 
 		switch(ch){
 
-				case 1:
-					tic_tac_toe();
-					break;
-					case 2:
+					case 1:
 						matchstick_game();
 						break;
-				  case 3:
+				  case 2:
 				  	trio();
 				  	break;
-				  	case 4:
+				  	case 3:
 				  		kbbs();
 				  		break;
-				    case 5:
+				    case 4:
 				    	mystery_numbers();
 				    	break;
-				    	case 6:
+				    	case 5:
 				    		dice_roller();
 				    		break;
-				    		case 7:
+				    		case 6:
 				    			main();
 				    			break;
 		}
@@ -95,177 +91,11 @@ printf("              *\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\
 	return 0;
 }
 
-char square[10] = { 'o', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-
-int checkwin();
-void board();
-
-int tic_tac_toe()
-{   // here is our first game that is tic_tac_toe() which is made by our whole team 
-    int player = 1, i, choice;
-     i=checkwin();
-    char mark;
-    do
-    {
-        board();
-        player = (player % 2) ? 1 : 2;
-
-        printf("   Player %d, enter a number:  ", player);
-        scanf("%d", &choice);
-
-        mark = (player == 1) ? 'X' : 'O';
-
-        if (choice == 1 && square[1] == '1')
-            square[1] = mark;
-
-        else if (choice == 2 && square[2] == '2')
-            square[2] = mark;
-
-        else if (choice == 3 && square[3] == '3')
-            square[3] = mark;
-
-        else if (choice == 4 && square[4] == '4')
-            square[4] = mark;
-
-        else if (choice == 5 && square[5] == '5')
-            square[5] = mark;
-
-        else if (choice == 6 && square[6] == '6')
-            square[6] = mark;
-
-        else if (choice == 7 && square[7] == '7')
-            square[7] = mark;
-
-        else if (choice == 8 && square[8] == '8')
-            square[8] = mark;
-
-        else if (choice == 9 && square[9] == '9')
-            square[9] = mark;
-
-        else
-        {
-            printf("   Invalid move ");
-
-            player--;
-            getch();
-        }
-        i = checkwin();
-
-        player++;
-    }while (i ==  - 1);
-
-    board();
-
-    if (i == 1)
-   {
-        printf("   ==>\aPlayer %d win ", --player);
-
-        square[1] = '1';
-        square[2] = '2';
-        square[3] = '3';
-        square[4] = '4';
-        square[5] = '5';
-        square[6] = '6';
-        square[7] = '7';
-        square[8] = '8';
-        square[9] = '9';
-
-    
-    }
-
-    else{
-        printf("   ==>\aGame draw");
-         square[1] = '1';
-        square[2] = '2';
-        square[3] = '3';
-        square[4] = '4';
-        square[5] = '5';
-        square[6] = '6';
-        square[7] = '7';
-        square[8] = '8';
-        square[9] = '9';
-       
-    }
-    printf("\n\npress enter to go back to fun page");
-    getch();
-   
-    return 0;
-}
-
-int checkwin()
-{ // this function is made to check the winning of player 
-    if (square[1] == square[2] && square[2] == square[3])
-        return 1;
-
-    else if (square[4] == square[5] && square[5] == square[6])
-        return 1;
-
-    else if (square[7] == square[8] && square[8] == square[9])
-        return 1;
-
-    else if (square[1] == square[4] && square[4] == square[7])
-        return 1;
-
-    else if (square[2] == square[5] && square[5] == square[8])
-        return 1;
-
-    else if (square[3] == square[6] && square[6] == square[9])
-        return 1;
-
-    else if (square[1] == square[5] && square[5] == square[9])
-        return 1;
-
-    else if (square[3] == square[5] && square[5] == square[7])
-        return 1;
-
-    else if (square[1] != '1' && square[2] != '2' && square[3] != '3' &&
-        square[4] != '4' && square[5] != '5' && square[6] != '6' && square[7]
-        != '7' && square[8] != '8' && square[9] != '9')
-
-        return 0;
-    else
-        return  - 1;
-}
-
-
-/*********
-FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH PLAYERS MARK
-********/
-
-
-void board()
-{
-    system("cls");
-      printf("     ***WELCOME TO THE GAME***\n\n");
-    printf("   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n");
-    printf("\t   Tic Tac Toe");
-    printf("\n   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n\n");
-
-    printf("   Player 1 (X)  -  Player 2 (O)\n\n");
-
-
-    printf("   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n");
-    printf("\t|     |     |     |\n");
-    printf("\t|  %c  |  %c  |  %c  |\n", square[1], square[2], square[3]);
-
-    printf("\t|_____|_____|_____|\n");
-    printf("\t|     |     |     |\n");
-
-    printf("\t|  %c  |  %c  |  %c  |\n", square[4], square[5], square[6]);
-
-    printf("\t|_____|_____|_____|\n");
-    printf("\t|     |     |     |\n");
-
-    printf("\t|  %c  |  %c  |  %c  |\n", square[7], square[8], square[9]);
-
-    printf("\t|     |     |     |\n");
-    printf("   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n\n");
-}
 
 int matchstick_game()
 { // this game is made by Khushbu Bijawat and the rules of this game is mentioned below in the code
 	srand(time(0));
-int mstick=21,user,computer;
+int matchstick=21,you,comp;
 system("cls");
 printf("                    ***WELCOME TO THE GAME***\n\n");
 printf("              *\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd*\n");
@@ -273,7 +103,8 @@ printf("              *\t\t\t\t\t     *\n");
 printf("              *           MATCHSTICK GAME            *\n");
 printf("              *\t\t\t\t\t     *\n");
 printf("              *\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd*\n");
-printf("\nRULES:\nThere are 21 matchsticks\n\nThe computer asks the player to pick 1, 2, 3, 4 or 5 matchsticks.\n\nAfter the person picks,the computer does its picking.\n\nwhoever is forced to pick up the last matchstick losses the game...\n\nYou can pick minimum 5 sticks at a time");
+printf("\nRULES:\nIn this game you've got twenty one  match_sticks\n\nFirst you've to select less than six sticks\n\nAnd then pc select it's sticks \n\nwhoever selects the last stick losses the game...");
+
 while(1)
 {
       printf("\n\n--------------------------------------------------------------------------------\n");
@@ -281,23 +112,24 @@ while(1)
 
 
 	printf("\n pick stick:");
-	scanf("%d",&user);
-	mstick=mstick-user;
-		if(mstick<1)
+	scanf("%d",&you);
+	matchstick=matchstick-you;
+		if(matchstick<1)
 	{
 		printf("\n Oops last stick is for you");
 		printf("\n you lost this game, better luck for next time");
 		break;
 	}
-	if(user>5)
+	if(you>5)
 	{
-		printf("\n you cannot pick more than 5 sticks at a time ,try again");
+		printf("\n you can only select at max 5 sticks at a time  ,try to pick less than 6 sticks");
+		
 		continue;
 	}
-	computer= (rand()%5)+1;
-	printf("\n computer picked %d sticks", computer);
-	mstick=mstick-computer;
-		if(mstick<=1)
+	comp= (rand()%5)+1;
+	printf("\n computer picked %d sticks", comp);
+	matchstick=matchstick-comp;
+		if(matchstick<=1)
 	{
 		printf("\n you won%c",2);
 		break;
@@ -329,7 +161,7 @@ printf(" About the game:-\n");
 printf("\nSo as the name tells ,this game consists of three games :\n 1. Zodiac Teller \n 2. Future prediction \n 3. Personality Traits ");
 printf("\n\n#INSTRUCTIONS: \n");
 printf("\n|| %c In Zodiac teller you are supposed to enter your birth date and month number .\n   For ex- 7  in date and 3 in month says 7 march ,your zodiac will be displayed according to it .\n",2);
-printf("\n|| %c In Future prediction you are supposed to enter your favourite number between [0 to 10], and you got to know about your future.\n ",2);
+printf("\n|| %c In Future prediction you're purported to enter your favorite variety between [0 to 10], and you bought to grasp concerning your future.\n ",2);
 printf("\n|| %c In Personality traits , you are required to enter a colour from given options , then according to that color it will display your about your personality.\n",2);
 
 printf("\nEnter your name : \t");
@@ -445,15 +277,15 @@ case 2:
       else if(fortune_cookie ==5){
           printf("Everything has finally fallen into place and you will get to adopt a pet to keep you company! It may not be the pet of your dreams in the beginning, but you'll quickly realize how important its role is in your life.\n\n");}
       else if(fortune_cookie == 6){
-          printf("If you haven't already, you will find your Charming and live in a beautiful and magical world of flower petals, bunnies, and cupcakes. Almost everything will work out for you. Together you will slay any obstacles that arise!\n\n");}
+          printf("If you haven't already, you will find your Charming and live in a beautiful and magical world of flower petals, bunnies, and cupcakes. Almost everything will work out for you.\n\n");}
       else if(fortune_cookie == 7){
           printf("You will be vampire soon. It's all just star to make some distance from your loved ones...you are dangerous for them.\n\n");}
       else if(fortune_cookie == 8){
-          printf("you will get a lottery of 1 billion rupee..and from that money you will open a software company and will marry to a daughter of richest man of world....That's quite intresting.%c\n\n",2);}
+          printf("you will go for a trip next year to uganda.....that's quite funny.%c\n\n",2);}
       else if(fortune_cookie == 9){
-          printf("you are a dog lover and you will adopt 10 different breed dogs...and your life will be going so happily with all these cute dogs.That's great..%c\n\n ", 1);}
+          printf("you are a animal lover and you will adopt 10 different types of animals...and your life will be going so happily with all these cute animals.That's great..%c\n\n ", 1);}
       else if(fortune_cookie == 10){
-          printf("You will become an politician in future.....and do the great changes for the welfare for your country...you will become the unforgettable politician for your country that's really good.%c \n\n", 1);}
+          printf("You will adopt a cat next year her name will be badal.%c \n\n", 1);}
        break;
 
 
@@ -1064,7 +896,7 @@ getch();
 return 0;
 }
 
-char box[10] = { '*', '*', '*', '*', '*', '*', '*', '*', '*', '*' };
+char d[10] = { '*', '*', '*', '*', '*', '*', '*', '*', '*', '*' };
 
 int win();
 void block();
@@ -1085,7 +917,7 @@ printf("RULES:\n 1. it's very easy game....you only have to find the 5 numbers w
 	 scanf("%s", name);
 	 system("cls");
 
-    int player = 1, i, choice;
+    int player = 1, i, b;
     int count=0;
 
     char  mark[9]= {'1', '2', '3', '4', '5', 'a', 'b', 'c', 'd'};
@@ -1095,34 +927,34 @@ printf("RULES:\n 1. it's very easy game....you only have to find the 5 numbers w
 
         block();
         printf("enter the star sequence number to flip the star:");
-        scanf("%d", &choice);
+        scanf("%d", &b);
 
-        if (choice == 1 && box[1] == '*')
-            box[1] = 'a';
+        if (b == 1 && d[1] == '*')
+            d[1] = 'a';
 
-        else if (choice == 2 && box[2] == '*')
-            box[2] = '1';
+        else if (b == 2 && d[2] == '*')
+            d[2] = '1';
 
-        else if (choice == 3 && box[3] == '*')
-            box[3] = 'b';
+        else if (b == 3 && d[3] == '*')
+            d[3] = 'b';
 
-        else if (choice == 4 && box[4] == '*')
-            box[4] = 'c';
+        else if (b == 4 && d[4] == '*')
+            d[4] = 'c';
 
-        else if (choice == 5 && box[5] == '*')
-            box[5] = '2';
+        else if (b == 5 && d[5] == '*')
+            d[5] = '2';
 
-        else if (choice == 6 && box[6] == '*')
-            box[6] = '3';
+        else if (b == 6 && d[6] == '*')
+            d[6] = '3';
 
-        else if (choice == 7 && box[7] == '*')
-            box[7] = 'd';
+        else if (b == 7 && d[7] == '*')
+            d[7] = 'd';
 
-        else if (choice == 8 && box[8] == '*')
-            box[8] = '4';
+        else if (b == 8 && d[8] == '*')
+            d[8] = '4';
 
-        else if (choice == 9 && box[9] == '*')
-             box[9] = '5';
+        else if (b == 9 && d[9] == '*')
+             d[9] = '5';
 
         else
         {
@@ -1147,28 +979,28 @@ printf("RULES:\n 1. it's very easy game....you only have to find the 5 numbers w
 }
      if (count<=7){
      	printf("you guessed it in less than 7 flips\n\n*** YOU WON %c ***", 2);
-     	box[1]='*';
-     	box[2]='*';
-        box[3]='*';
-     	box[4]='*';
-     	box[5]='*';
-     	box[6]='*';
-        box[7]='*';
-     	box[8]='*';
-     	box[9]='*';
+     		d[1]='*';
+     	d[2]='*';
+        d[3]='*';
+     	d[4]='*';
+     	d[5]='*';
+     	d[6]='*';
+        d[7]='*';
+     	d[8]='*';
+     	d[9]='*';
 
 	 }
 	 else {
 	 	printf("you guessed numbers in more than 7 flips\n\n **BETTER LUCK NEXT TIME**");
-	 	box[1]='*';
-     	box[2]='*';
-        box[3]='*';
-     	box[4]='*';
-     	box[5]='*';
-     	box[6]='*';
-        box[7]='*';
-     	box[8]='*';
-     	box[9]='*';
+	 	d[1]='*';
+     	d[2]='*';
+        d[3]='*';
+     	d[4]='*';
+     	d[5]='*';
+     	d[6]='*';
+        d[7]='*';
+     	d[8]='*';
+     	d[9]='*';
 
 	 }
 	 printf("\nEnter any key to go back in fun page:");
@@ -1179,7 +1011,7 @@ printf("RULES:\n 1. it's very easy game....you only have to find the 5 numbers w
 
 int win()
 { // This code is to check the winning of the player
-	if(box[2]== '1' && box[5]== '2' && box[6]== '3' && box[8]== '4' && box[9]== '5')
+	if(d[2]== '1' && d[5]== '2' && d[6]== '3' && d[8]== '4' && d[9]== '5')
 	  return 1;
 
 	  else
@@ -1204,17 +1036,17 @@ void block()
 
     printf("\n   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n");
     printf("\t|     |     |     |\n");
-    printf("\t|  %c  |  %c  |  %c  |\n", box[1], box[2], box[3]);
+    printf("\t|  %c  |  %c  |  %c  |\n", d[1], d[2], d[3]);
 
     printf("\t|_____|_____|_____|\n");
     printf("\t|     |     |     |\n");
 
-    printf("\t|  %c  |  %c  |  %c  |\n", box[4], box[5], box[6]);
+    printf("\t|  %c  |  %c  |  %c  |\n", d[4], d[5], d[6]);
 
     printf("\t|_____|_____|_____|\n");
     printf("\t|     |     |     |\n");
 
-    printf("\t|  %c  |  %c  |  %c  |\n", box[7], box[8], box[9]);
+    printf("\t|  %c  |  %c  |  %c  |\n", d[7], d[8], d[9]);
 
     printf("\t|     |     |     |\n");
     printf("   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n\n");
@@ -1247,9 +1079,9 @@ int playGame(){
 	printf("\n\nDices throw  %d,%d respectively\n",dice1,dice2);
 	printf("Sum is %d\n\n",sum);
 	if(sum==7 || sum==11)
-	output = WON;
+	output = luck;
 	else if(sum==2 ||sum==3 ||sum==12)
-	output = LOSE;
+	output = badluck;
 	else{
 		point =sum;
 		printf("\n\nNow you have to play for game point.\n");
@@ -1274,13 +1106,13 @@ int playGame(){
 	printf("Sum is %d\n",sum);
 	if(sum==point)
 	{printf("\n\nYou Won in %d attempts\n",nguess);
-	return WON;
+	return luck;
 	getch();
 	break;
 	}
 	else if(sum==7||sum==11)
 	{
-	return LOSE;
+	return badluck;
 	getch();
 	break;
 	}
@@ -1316,11 +1148,11 @@ printf("              *\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\
 	int result = playGame();
 	switch(result)
 {
-		case (WON):
+		case (luck):
 		 printf("\n\n**CONGRATS,You won the game!!%c**\n",1);
 
 		 break;
-	    case (LOSE):
+	    case (badluck):
 	     printf("\n\n**SORRY,You lose the game!!\n\n\n\t\t\tBetter Luck Next Time%c%c**\n",1,3);
 
 		 break;
