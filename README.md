@@ -1,158 +1,70 @@
-﻿<!-- PROJECT SHIELDS -->
-[![MIT License][license-shield]][license-url]
-[![Discord][discord-shield]][discord-url]
+# StudyPods-v2.0
+This is the official GitHub repository of StudyPods v2.0 initiative by DSC MBM
 
-<h1 align="center"> SP02__ </h1>
+![logo1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70LHUvtNCdVViiLcLs5x_bbL3aNQtYVRqOA&usqp=CAU)
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+ ![GitHub forks](https://img.shields.io/github/forks/dscmbm/StudyPods-v2.0?style=social)
+ ![GitHub Org's stars](https://img.shields.io/github/stars/dscmbm/StudyPods-v2.0?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/dscmbm/StudyPods-v2.0?style=social)
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
-    </li>
-    <li>
-      <a href="#sp0201">SP02__</a>
-      <ul>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#mentor">Mentor</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#daily-logs">Daily Logs</a>
-      <ul>
-        <li><a href="#format">Format</a></li>
-        <li><a href="#logs">Logs</a></li>
-      </ul>
-    </li>
-    <li><a href="#resources">Resources</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li>
-      <a href="#project">Projects</a>
-      <ul>
-      <!--
-        <li><a href="#overview">Overview</a></li>
-        <li>
-          <a href="#getting-started">Getting Started</a>
-          <ul>
-            <li><a href="#prerequisites">Prerequisites</a></li>
-            <li><a href="#installation">Installation</a></li>
-          </ul>  
-        </li>
-      -->
-      <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
-      </ul>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+![GitHub issues](https://img.shields.io/github/issues/dscmbm/StudyPods-v2.0?color=green&style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/dscmbm/StudyPods-v2.0?color=red&style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/dscmbm/StudyPods-v2.0?color=orange&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/dscmbm/StudyPods-v2.0?color=blue&style=for-the-badge)
 
-## About StudyPods v2.0
+ ## Overview
+ Welcome to our project StudyPods-v2.0. The goal of this project is to provide students with all the branch to interect with new technology other study related material. And this is an open source project so feel free to fork and clone this project and try to add few more things in this project. 
 
-Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
+ ## Technologies Used
 
-## SP0204
+ <img src="https://img.shields.io/badge/Web Development-FFA500?style=for-the-badge&logo=Front-end&logoColor=white"> <img src="https://img.shields.io/badge/Frontend-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Backend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-SP0204 is an amazing team built by the efforts of its team members and the support of its mentors
+ <img src="https://img.shields.io/badge/BlockChain-94F53B?style=for-the-badge&logo=Front-end-framework&logoColor=white">
+<!--  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> -->
 
-### Team
+ <img src="https://img.shields.io/badge/Andriod DEVELOPMENT-53A973?style=for-the-badge&logo=Back-end&logoColor=White"> 
+<!--  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white"> -->
 
-Khushi Purohit<br>
-Khushi Bansal<br>
-Karishma Sharma<br>
-Aparna Jain<br>
-Khushbu Bijawat<br>
+ <img src="https://img.shields.io/badge/Python-3C7EDC?style=for-the-badge&logo=Back-end-Framework&logoColor=white">  <img src="https://img.shields.io/badge/DSA-3C7EDC?style=for-the-badge&logo=Back-end-Framework&logoColor=white">  <img src ="https://img.shields.io/badge/CPP-000000?style=for-the-badge&logo=express&logoColor=white"> <img src ="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=express&logoColor=white">
 
-### Mentor
+ <img src="https://img.shields.io/badge/AutoCAD-E81629?style=for-the-badge&logo=Authentication-Authorization&logoColor=white">   <img src="https://img.shields.io/badge/Aerospace-ffca28?style=for-the-badge&logo=firebase&logoColor=black">
 
-Harshita Sharma
+ <img src="https://img.shields.io/badge/ROBOTICS -464B4D?style=for-the-badge&logo=Database&logoColor=white"> <img src ="https://img.shields.io/badge/IOT-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> <img src ="https://img.shields.io/badge/ML and AI-53adcb?style=for-the-badge&logo=mongoose&logoColor=white">
 
-## Daily Logs
+<img src ="https://img.shields.io/badge/Data science-53adcb?style=for-the-badge&logo=mongoose&logoColor=white">
 
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+## Citizen Code of Conduct
 
-### Format
+A primary goal of Study Pods V2.0 is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
-
-## Project
-
-This section contains the details about the different projects made by the team.
-
-### Project 1
-
-<!-- Our project "MBM FUN ZONE" is basically a game zone where user can play 6 different fun games in the interface like Tic Tac Toe, Dice Roller Game, Mystery Numbers Game and it also consist some fun activities like Kaun Banega Bollywood Star and Fortune Trio. All these games are created by the team in C language.
--->
-
-### Project 2
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-<!-- Share your contact details. Preferrably these details
-Email
-Khushi Purohit- khushisvpurohit@gmail.com
-Khushi Bansal- bansalkhushi899@gmail.com
-Karishma Sharma- ghoshikarishma1@gmail.com
-Aparna Jain- aj.aparnajain13@gmail.com
-Khushbu Bijawat- khushbubijawat31@gmail.com
-
-LinkedIn
-Khushi Purohit- https://www.linkedin.com/in/khushi-purohit-a3739a201
-Khushi Bansal- https://www.linkedin.com/in/khushi-bansal-001520201
-Karishma Sharma- https://www.linkedin.com/in/karishmasharma07
-Aparna Jain- https://www.linkedin.com/in/aparna-jain-763ba5202
-Khushbu Bijawat- https://www.linkedin.com/in/khushbu-bijawat-27b4a11b3
-
-GitHub
-Khushi Purohit- https://github.com/Khushipurohit
-Khushi Bansal- https://github.com/khushibansal26
-Karishma Sharma- https://github.com/sharmakarish
-Aparna Jain- https://github.com/Aparnajain136
-Khushbu Bijawat- https://github.com/khushbubijawat
+[Code of Conduct](https://github.com/dscmbm/StudyPods-v2.0/blob/main/CODE_OF_CONDUCT.md)
 
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
+## Contributing
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
-[license-url]: https://github.com/dscmbm/StudyPods-v2.0/blob/main/LICENSE
-[discord-shield]: https://img.shields.io/discord/864499877723504640?style=for-the-badge
-[discord-url]: https://discord.gg/fe9s82cE56
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+[Contributing](https://github.com/dscmbm/StudyPods-v2.0/blob/main/CONTRIBUTING.md)
+
+
+## pull request
+
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+
+[Pull request](https://github.com/dscmbm/StudyPods-v2.0/blob/main/pull_request_template.md)
+
+
+<!-- ## Contributers 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/tanmay12-sud0"><img src="https://avatars.githubusercontent.com/u/74183172?v=4" width="200px;" alt=""/><br /><sub><b>Tanmay Goyal</b></sub></a><br /><a href="#https://github.com/tanmay12-sud0" title="Content">🖋</a> <a href="https://github.com/Satwikan/2nd-hand-mbm/commits/main" title="Documentation">📖</a></td>
+   <td align="center"><a href="https://github.com/Rajat-Jain29"><img src="https://avatars.githubusercontent.com/u/74781798?v=4" width="200px;" alt=""/><br /><sub><b>Rajat Jain</b></sub></a><br /><a href="https://github.com/Rajat-Jain29" title="Content">🖋</a> <a href="https://github.com/Satwikan/2nd-hand-mbm/commits/main" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RYzen-009"><img src="https://avatars.githubusercontent.com/u/74481466?s=400&u=3ce07bd992f782c43c2474dd99e284f1671f43fe&v=4" width="200px;" alt=""/><br /><sub><b>Tanmay Mathur</b></sub></a><br /><a href="https://github.com/RYzen-009" title="Content">🖋</a> <a href="https://github.com/Satwikan/2nd-hand-mbm/commits/main" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Satwikan"><img src="https://avatars.githubusercontent.com/u/69719072?v=4" width="200px;" alt=""/><br /><sub><b>Satwik Anmol</b></sub></a><br /><a href="https://github.com/Satwikan" title="Content">🖋</a> <a href="https://github.com/Satwikan/2nd-hand-mbm/commits/main" title="Documentation">📖</a></td>
+ </tr>
+</table> 
+ -->
+
+
+## LICENSE
+[MIT](https://github.com/Satwikan/2nd-hand-mbm/blob/main/LICENSE)
