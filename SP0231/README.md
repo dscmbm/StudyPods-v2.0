@@ -2,9 +2,14 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP02__ </h1>
+<h1 align="center"> PROPOSAL FOR EXTENSION OF DEADLINE FOR STUDYPOD PROJECTS </h1>
+<h3>PROJECT OVERVIEW</h3>
+Our project is Blockchain-based E-Polling using Hyperledger Fabric and Flutter as frontend UI. This project uses features of blockchain that are immutability, transparency, and data security. <br>
+The project allows the admin to generate a poll and put up a question to be voted for. The user i.e. the voter can see the active polls by the admin and can vote in yes or no based on the agreement to the poll question. The complete voting and poll generation are recorded on the blockchain. A voter can see all the votes he/she had cast in various polls through his/her unique Id to ensure his vote is counted. The data stored in the blockchain is hashed and thus implies nobody can trace back the voter’s identity through any means. 
 
-This is the folder for team SP02__ participating in StudyPods v2.0 by Developers Student Club MBM.
+<h1 align="center"> SP0231 </h1>
+
+This is the folder for team SP0231 participating in StudyPods v2.0 by Developers Student Club MBM.
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -13,7 +18,7 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
       <a href="#about-studypods-v2.0">About StudyPods v2.0</a>
     </li>
     <li>
-      <a href="#sp0201">SP02__</a>
+      <a href="#sp0201">SP0231</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -54,84 +59,42 @@ This is the folder for team SP02__ participating in StudyPods v2.0 by Developers
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP02__
+## SP0231
 
-SP02__ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0231 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
-Person5
+Prakhar Gupta<br>
+Nehal Jaisalmeria<br>
+Ravi Thakur<br>
+
 
 ### Mentor
 
-Mentor1
+ HARSH GUPTA
 
-## Daily Logs
+## TECHNICAL DETAILS
+<li>Hyperledger Fabric is an open-source project, a private blockchain solution designed by IBM, under the umbrella of The Linux Foundation’s Hyperledger Project.</li>
+<li>Our Project has four layers, namely, Frontend, Backend, Chaincode, and Blockchain layer.</li>
+<li>The frontend Layer is developed using Flutter</li>
+<li>The Backend Layer is developed in Nodejs and Express js. It involves creating API endpoints for frontend and Chaincode communication. It also uses Fabric Tools provided by the fabric package for creating Certificate authorities, wallets, etc.</li>
+<li>The Chaincode layer is similar to a smart contract and is developed in go language. Its role is to interact with the blockchain, append data according to Project-Logic, provide data reading and writing ability to client or user via frontend and backend layer in accordance to project-logic. </li>
 
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+## THE CHAIN-CODE DETAILS
+<li>Poll Asset Object having Poll details</li>
+<li>Vote Asset Object having Vote details</li>
+<li>Poll Creating Function for admin</li>
+<li>Checking the existence of a Poll via Poll ID</li>
+<li>Reading all votes for each poll Id</li>
+<li>Votes by Voter hash</li>
+<li>And some more functions to be made</li>
 
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done today:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-## Resources
-
-## Roadmap
-
-## Project
-
-This section contains the details about the different projects made by the team.
-
-### Project 1
-
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
-
-### Project 2
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-<!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
-
-Note: Do not share your mobile number as it will expose it over the internet
--->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/dscmbm/StudyPods-v2.0?style=for-the-badge
