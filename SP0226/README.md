@@ -61,6 +61,7 @@ SP0226 is an amazing team built by the efforts of its team members and the suppo
 ### Team
 
 Anurag Vijay Vergiya<br>
+Jaivardhan Singh<br>
 Gaurav Kasera<br>
 Garima vaishnav<br>
 Bhanu priya dixit
